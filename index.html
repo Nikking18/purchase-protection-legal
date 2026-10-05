@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Purchase Protection — Official App Information & Legal Documents</title>
+  <meta name="description" content="Official legal documentation, Privacy Policy, and Terms of Service for the Purchase Protection Android application by Solodev-Nikhil.">
+  <style>
+    :root {
+      --bg: #F6F8F7;
+      --surface: #FFFFFF;
+      --text: #141A17;
+      --text-muted: #536059;
+      --primary: #1F6B4F;
+      --primary-dark: #154D38;
+      --primary-light: #EBF5F0;
+      --border: #DDE4E0;
+      --accent: #2E8B57;
+      --shadow: 0 4px 20px rgba(20, 26, 23, 0.06);
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background-color: var(--bg);
+      padding: 32px 16px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrapper {
+      max-width: 820px;
+      margin: 0 auto;
+    }
+    header {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 40px 32px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+      text-align: center;
+    }
+    .app-icon {
+      width: 72px;
+      height: 72px;
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      border-radius: 18px;
+      margin: 0 auto 20px auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      font-weight: 700;
+      font-size: 32px;
+      box-shadow: 0 8px 16px rgba(31, 107, 79, 0.25);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--primary-light);
+      color: var(--primary-dark);
+      padding: 4px 14px;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      letter-spacing: 0.02em;
+      margin-bottom: 12px;
+      border: 1px solid rgba(31, 107, 79, 0.15);
+    }
+    h1 {
+      font-size: 2.1rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+    .tagline {
+      font-size: 1.15rem;
+      color: var(--text-muted);
+      max-width: 620px;
+      margin: 0 auto 16px auto;
+    }
+    .meta-details {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px 24px;
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+      margin-top: 20px;
+    }
+    .meta-item strong {
+      color: var(--text);
+    }
+    .content-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+    p {
+      margin-bottom: 16px;
+      color: var(--text);
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin: 20px 0;
+    }
+    .feature-item {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 18px;
+    }
+    .feature-title {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--primary-dark);
+      margin-bottom: 6px;
+    }
+    .feature-desc {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+    .links-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .doc-link-card {
+      display: block;
+      text-decoration: none;
+      background: var(--surface);
+      border: 2px solid var(--border);
+      border-radius: 14px;
+      padding: 24px;
+      transition: all 0.15s ease-in-out;
+    }
+    .doc-link-card:hover, .doc-link-card:focus {
+      border-color: var(--primary);
+      box-shadow: 0 6px 16px rgba(31, 107, 79, 0.12);
+      transform: translateY(-2px);
+    }
+    .doc-link-card h3 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .doc-link-card p {
+      font-size: 0.9rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+    }
+    .contact-box {
+      background: var(--primary-light);
+      border: 1px solid rgba(31, 107, 79, 0.2);
+      border-radius: 12px;
+      padding: 20px;
+      margin-top: 20px;
+    }
+    .contact-box p {
+      margin-bottom: 6px;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      padding: 24px 0 16px 0;
+    }
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+    code {
+      background: #edf1ef;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.88em;
+      color: var(--primary-dark);
+      font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="app-icon" aria-hidden="true">&#x1F6E1;</div>
+      <div class="badge">Local-First Android Utility</div>
+      <h1>Purchase Protection</h1>
+      <p class="tagline">A private, on-device utility to track return windows, organize receipts, and manage warranty expiration deadlines.</p>
+      
+      <div class="meta-details">
+        <div class="meta-item">Developer: <strong>Solodev-Nikhil</strong></div>
+        <div class="meta-item">Package ID: <code>com.solodevnikhil.purchaseprotection</code></div>
+        <div class="meta-item">Platform: <strong>Android (Google Play)</strong></div>
+      </div>
+    </header>
+
+    <main>
+      <section class="content-card">
+        <h2>About the Application</h2>
+        <p><strong>Purchase Protection</strong> is engineered with a strict local-first philosophy. Your purchase history, receipt images, price records, and warranty dates reside directly in your device's secure internal database (Room), never on remote application servers.</p>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-title">&#x1F512; 100% Local Storage</div>
+            <div class="feature-desc">No cloud servers, no account registration, and no login required. Your data belongs entirely to you.</div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-title">&#x1F514; Timely Reminders</div>
+            <div class="feature-desc">Local notifications alert you before return windows close or manufacturer warranties expire.</div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-title">&#x1F4F8; On-Device Receipts</div>
+            <div class="feature-desc">Attach receipt photos via the secure Android photo picker; images are stored strictly in private app storage.</div>
+          </div>
+          <div class="feature-item">
+            <div class="feature-title">&#x2B50; Optional Pro Upgrade</div>
+            <div class="feature-desc">A one-time lifetime purchase via Google Play Billing unlocks an ad-free experience and unlimited tracking.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-card">
+        <h2>Legal Documentation & Policies</h2>
+        <p>Please review our official policies governing data privacy, permissions, and usage terms:</p>
+
+        <div class="links-grid">
+          <a href="privacy-policy.html" class="doc-link-card">
+            <h3>Privacy Policy <span aria-hidden="true">&rarr;</span></h3>
+            <p>Comprehensive disclosure of data storage, permissions, Google AdMob, Google UMP consent, Google Play Billing, and local data deletion.</p>
+          </a>
+
+          <a href="terms-of-service.html" class="doc-link-card">
+            <h3>Terms of Service <span aria-hidden="true">&rarr;</span></h3>
+            <p>Terms governing app usage, disclaimer on retailer return policies, reminder limitations, and Pro lifetime purchase details.</p>
+          </a>
+        </div>
+
+        <div class="contact-box">
+          <p><strong>Developer Contact & Support:</strong></p>
+          <p>Developer: <strong>Solodev-Nikhil</strong></p>
+          <p>Contact Email: <strong>[DEVELOPER_CONTACT_EMAIL]</strong> (e.g., support@solodevnikhil.com)</p>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 8px;">For privacy inquiries or technical support, please reach out via the contact email above.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Solodev-Nikhil. All rights reserved.</p>
+      <p style="margin-top: 6px;">
+        <a href="privacy-policy.html">Privacy Policy</a> &bull; 
+        <a href="terms-of-service.html">Terms of Service</a>
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
